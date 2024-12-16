@@ -8,11 +8,11 @@ export default function Hero() {
                 <p className='text-2xl'>I am a Full-stack developer</p>
             </h1>
             <div className='flex py-10 '>
-              <a href='#' className='pr-5 hover:text-white' ><AiOutlineTwitter size={40}/></a>
-              <a href='#' className='pr-5 hover:text-white'><AiOutlineFacebook size={40}/></a>
-              <a href='#' className=' hover:text-white'><AiOutlineLinkedin size={40}/></a>
+              <a href='/' className='pr-5 hover:text-white' ><AiOutlineTwitter size={40}/></a>
+              <a href='/' className='pr-5 hover:text-white'><AiOutlineFacebook size={40}/></a>
+              <a href='/' className=' hover:text-white'><AiOutlineLinkedin size={40}/></a>
             </div>
         </div>
-      <img className='md:w-1/3'src={HeroImg} />    
+      <img alt='hero' className='md:w-1/3'src={HeroImg} />    
       </section>
 }

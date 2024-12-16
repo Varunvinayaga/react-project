@@ -1,4 +1,3 @@
-import ResumeImg from '../assets/resume.jpg'
 export default function Contact() {
     return <section id='contact' className='flex flex-col  bg-primary px-5 py-32  text-white'>
        

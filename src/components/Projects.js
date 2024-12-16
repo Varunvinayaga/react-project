@@ -12,20 +12,20 @@ export default function Projects() {
         <div className="w-full">
             <div className='flex  flex-col md:flex-row px-10 gap-5'>
             <div className='relative'>
-              <img className='h-[300px] w-[300px]' src={websiteImg1}/>
+              <img alt='ecommerce' className='h-[300px] w-[300px]' src={websiteImg1}/>
               <div className='project-desc'>
                     <p className='text-center px-5 py-5'>A Ecommerce Website. Built with Mern stack.</p>
                 </div>
             </div>
             
             <div className='relative'>
-            <img className='h-[300px] w-[300px]' src={websiteImg2}/>
+            <img alt='food' className='h-[300px] w-[300px]' src={websiteImg2}/>
             <div className='project-desc'>
                     <p className='text-center px-5 py-5'>Food Ecommerce website like Swiggy, Built with Angular &.Net</p>
                 </div>
             </div>
            <div className='relative'>
-           <img className='h-[300px] w-[300px]' src={websiteImg3}/>
+           <img alt='hello' className='h-[300px] w-[300px]' src={websiteImg3}/>
            <div className='project-desc'>
                     <p className='text-center px-5 py-5'>Basic Blog website. Built with Next JS and MangoDB</p>
                 </div>
